@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+
+.sidebarWrapper{
+  position: sticky;
+  inset: 0;
+  width: 224px;
+  background-color: var(--blue-800);
+  height: 100dvh;
+  color: var(--gray-300);
+}

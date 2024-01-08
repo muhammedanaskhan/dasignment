@@ -1,0 +1,102 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .profile{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px 20px 16px;
+  }
+
+  .user{
+    display: flex;
+    gap: 12.5px;
+  }
+
+  .userIcon img{
+    border-radius: 4px;
+    height: 40px;
+    width: 40px;
+  }
+
+  .userName{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+
+  .visitStore{
+    font-size: 13px;
+    text-decoration: underline;
+    color: var(--gray-300);
+  }
+
+  .visitStore:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+  .menuItems{
+    padding: 8px;
+    list-style: none;
+    flex: 1;
+  }
+
+  .menuItem a{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    opacity: 0.8;
+    color: #FFFFFF; 
+  }
+  .activeItem a{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    opacity: 1;
+    color: #FFFFFF; 
+     background-color:rgba(255, 255, 255, 0.10);
+  }
+  .menuItem:hover {
+    cursor: pointer;
+    background-color: #ffffff0d;
+  }
+
+  .creditsDiv {
+    margin-top: auto;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 6px 16px;
+    display: flex;
+    gap: 12px;
+    background-color: #ffffff0d;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .creditsDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .amount{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+  }
