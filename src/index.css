@@ -24,3 +24,8 @@ code {
   --blue-600: #0e4f82;
   --blue-400: #146eb4;
 }
+
+p{
+  padding: 0;
+  margin: 0;
+}

@@ -6,7 +6,8 @@ function Sidebar() {
         {
             item: "Home",
             link: "/",
-            image: "/menuIcons/home.svg"
+            image: "/menuIcons/home.svg",
+            isActive: true
         },
         {
             item: "Orders",
@@ -37,7 +38,6 @@ function Sidebar() {
             item: "Payments",
             link: "/payments",
             image: "/menuIcons/payments.svg",
-            isActive: true
         },
         {
             item: "Tools",

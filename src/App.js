@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Sidebar from './components/Sidebar/Sidebar';
+import Nav from './components/Nav/Nav';
 
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
       <div className='sidebarWrapper'>
         <Sidebar/>
       </div>
-      
+      <section className='appContainer'>
+        <Nav/>
+      </section>
     </div>
   );
 }

@@ -1,0 +1,96 @@
+.nav {
+    padding: 12px 32px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid var(--gray-300);
+
+    position: sticky;
+    top: 0;
+  }
+
+  .navHeading {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .navTitle{
+   font-size: 15px;
+    font-weight: 400;
+    color: #1A181E;
+  }
+
+  .infoIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .infoIcon img{
+width: 14px;
+height: 14px;
+  }
+  .navInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .infoText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #4D4D4D;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .navSearchContainer{
+
+  }
+
+  .searchBox{
+    display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 16px;
+  width: 400px;
+  border-radius: 8px;
+  background-color: var(--gray-100);
+  color: var(--gray-600);
+  }
+
+  .searchBox input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-family: Inter, sans-serif;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .searchBox input::placeholder {
+    color: var(--gray-600);
+  }
+  
+  .headerButtons{
+    display: flex;
+    gap: 12px;
+  }
+
+  .headerButtons div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gray-200);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+    color: var(--gray-700);
+  }
