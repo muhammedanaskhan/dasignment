@@ -1,0 +1,234 @@
+.transactions {
+    padding: 0px 32px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+  }
+
+  .transactionsTitle{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    font-family: Inter, sans-serif;
+  }
+
+  .transactionsTable {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 8px 10px;
+  }
+
+  .tableHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .tableSearchBar{
+    padding: 6px 8px 6px 12px;
+    border: 1px solid var(--gray-300);
+    border-radius: 4px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    width: 240px;
+    color: var(--gray-600);
+  }
+
+  .tableSearchBar input {
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    outline: none;
+    padding: 4px 0;
+    border: none;
+    width: 100%;
+  }
+
+  .tableSearchBar input::placeholder {
+    color: var(--gray-600);
+  }
+
+  .tableHeaderBtns{
+    display: flex;
+    gap: 20px;
+  }
+
+  .tableHeaderBtns div{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    color: var(--gray-700);
+    border: 1px solid var(--gray-300);
+    background-color: white;
+  }
+
+  .downloadBtn img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .tableBody{
+  margin-top: 12px;
+  width: 100%;
+  }
+
+  .tableBody table {
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+  }
+
+  .tableBody table thead {
+    font-weight: 400;
+    text-align: left;
+    background-color: var(--gray-100);
+    color: var(--gray-600);
+
+    
+  }
+
+  .tableBody table thead tr {
+    padding: 10px 12px !important;
+    border-bottom: 2px solid var(--gray-100);
+
+    border-radius: 4px !important;
+
+  }
+
+  .tableBody table tbody tr:last-child {
+    border: 0;
+  }
+
+  .tableBody table tbody tr td {
+    padding: 14px 12px;
+  }
+
+  .tableBody table thead tr th {
+    font-weight: 500;
+    color: var(--gray-800);
+    padding: 10px 12px;
+  }
+
+  .tableBody table thead tr td {
+    font-weight: 500;
+    color: var(--gray-800);
+    padding: 10px 12px;
+  }
+
+  .tableBody table thead tr td:first-child {
+    border-radius: 4px 0 0 4px;
+    overflow: hidden;
+  }
+
+  .tableBody table thead tr td:last-child{
+    border-radius: 0px 4px 4px 0px;
+    overflow: hidden;
+  }
+
+
+
+
+  
+.tableBody table thead tr th:last-child {
+    text-align: right;
+}
+  
+
+  .th-orderDate{
+    display: flex;
+    gap: 4px;
+  }
+
+  .th-orderAmt{
+text-align: right;
+  }
+  .th-transactionFee{
+    display: flex;
+    gap: 4px;
+    justify-content: right;
+  }
+
+  .orderId{
+    color: var(--blue-400);
+    text-align: left;
+    font-weight: 500;
+  }
+  .orderDate{
+    text-align: left;
+  }
+  .orderamount{
+    text-align: right;
+  }
+
+  .transactionFees{
+    text-align: right;
+  }
+
+  .paginationComponent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .pagination{
+    width: 610px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .prevBtn{
+    display: flex;
+padding: 6px 12px 6px 6px;
+justify-content: center;
+align-items: center;
+gap: 6px;
+
+border-radius: 4px;
+border: 1px solid var(--Black-85, #D9D9D9);
+background: var(--Black-100, #FFF);
+  }
+
+  .nexBtn{
+    display: flex;
+padding: 6px 6px 6px 12px;
+justify-content: center;
+align-items: center;
+gap: 6px;
+
+border-radius: 4px;
+border: 1px solid var(--Black-85, #D9D9D9);
+background: var(--Black-100, #FFF);
+  }
+
+  .pages{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .dashes{
+    width: 28px;
+    height: 28px;
+  }
+  .page{
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+.selected{
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: #FFF;
+background: var(--Primary-Blue, #146EB4);
+  }
