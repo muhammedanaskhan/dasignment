@@ -3,7 +3,17 @@ import './Transactions.css'
 
 function Transactions() {
   return (
-    <div>Transactions</div>
+    <div className='transactions'>
+      <p className='transactionTitle'>Transactions | This Month</p>
+      <div className="transactionsTable">
+        <div className="tableHeader">
+
+        </div>
+        <div className="tableBody">
+          
+        </div>
+      </div>
+    </div>
   )
 }
 
