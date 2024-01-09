@@ -4,7 +4,7 @@
     justify-content: space-between;
     background-color: white;
     border-bottom: 1px solid var(--gray-300);
-
+    z-index: 9;
     position: sticky;
     top: 0;
   }

@@ -2,6 +2,7 @@
     padding: 0px 32px;
     margin-bottom: 32px;
     border-radius: 8px;
+    z-index: 1;
   }
 
   .transactionsTitle{
